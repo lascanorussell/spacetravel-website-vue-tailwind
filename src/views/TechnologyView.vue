@@ -1,5 +1,9 @@
 <template>
-    <section class="destination h-screen w-screen bg-[url('@/assets/images/technology/background-technology-desktop.jpg')] bg-cover bg-center"></section>
+    <section class="technology h-screen w-screen 
+    xl:bg-[url('@/assets/technology/background-technology-desktop.jpg')] 
+    lg:bg-[url('@/assets/technology/background-technology-tablet.jpg')] 
+    bg-[url('@/assets/technology/background-technology-mobile.jpg')] 
+    bg-cover bg-center"></section>
 </template>
 
 <script>

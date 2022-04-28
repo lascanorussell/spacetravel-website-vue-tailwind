@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
 import Navigation from '@/components/Navigation.vue'
 </script>
 
@@ -8,15 +7,19 @@ import Navigation from '@/components/Navigation.vue'
     <header>
         <Navigation />
     </header>
-
-  <RouterView />
+    <RouterView />
 </template>
 
 <style>
 html, body{
-    font-family: 'Bellefair', serif !important;
+    /* font-family: 'Bellefair', serif !important; */
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
 }
 .router-link-active{
     border-color: #ffffff !important;
+}
+.font-bellfair{
+    font-family: 'Bellefair', serif !important;
 }
 </style>
