@@ -17,6 +17,7 @@ html, body{
     color: #ffffff;
 }
 .router-link-active{
+    color: #ffffff !important;
     border-color: #ffffff !important;
 }
 .font-bellfair{
